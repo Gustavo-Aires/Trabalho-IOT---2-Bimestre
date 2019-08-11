@@ -1,23 +1,31 @@
-# Trabalho-IOT---2-Bimestre
-//Sensor de Vibração Arduino
-//- O Sensor de Vibração 2578AY-RG é um módulo eletrônico composto por uma placa e um sensor de vibração, sendo desenvolvido especialmente //para atuar em conjunto com plataformas de prototipagem, entre elas, Arduino, Raspberry PI, PIC, AVR, ARM, etc.
-//- A função do Módulo Sensor de Vibração 2578AY-RG, como o próprio nome sugere, é detectar a vibração do local onde estiver instalado, um //exemplo a ser destacado é em alarmes, na forma de sensor de presença quando instalado em portas, ou ainda, instalado em objetos cuja vibração //deva ser percebida quando excessiva. Ao ser percebida, o sensor de vibração envia as informações ao microcontrolador que pode acionar um //buzzer, por exemplo.
-//- O Módulo Sensor de Vibração 2578AY-RG, também é conhecido como sensor de batida (choque mecânico), é amplamente utilizado em projetos de //robôs de batalha, onde permite identificar o momento que está sendo atingido e assim executar algum tipo de reação.
-//- Para facilitar a instalação, o Sensor de Vibração 2578AY-RG conta com apenas 3 pinos (VCC, GND, SINAL), além de contar com perfurações para //fixação, mostrando-se um dispositivo prático, rápido e confiável.
-// 
-//
-//CARACTERÍSTICAS:
-//- Sensor de Vibração;
-//- Sensor de Batida (Choque Mecânico);
-//- knock sensor;
-//- Compatível com Arduino, Raspberry PI, PIC, ARM, etc.;
-//- Maior precisão;
-//- Detecta impactos;
-//- Compacto. 
-//
-//ESPECIFICAÇÕES:
-//- Modelo: 2578AY-RG;
-//- Tensão de funcionamento: 3V~5V DC;
-//- Dimensões (CxLxA): 19x15x8mm;
-//- Peso com embalagem: 1g. 
+– Descrição:
+
+O Sensor (Detector) de Vibração SW-420 é um módulo eletrônico desenvolvido com a finalidade de detectar vibrações em um ambiente ou superfície. Caso a intensidade da vibração seja abaixo do valor definido no trimpot (ajuste de sensibilidade) que há no sensor, a saída (digital) do sensor se mantém em nível baixo e quando o sensor detectar alguma vibração acima do valor definido, a saída (digital) altera para nível alto.
+
+– Especificações e características:
+
+– Controlador: LM393
+– Tensão de operação: 3,3 – 5VDC
+– Saída Digital
+– LED indicador para presença de tensão
+– LED indicador para saída digital
+– Sensibilidade ajustável através de trimpot
+
+– Aplicações:
+
+Projetos com Arduino ou outras plataformas microcontroladas em que seja necessário detectar vibrações de superfícies.
+
+– Proposta da prática:
+
+Utilizar o Sensor (Detector) de Vibração SW-420 em conjunto com o Arduino e mostrar através de um LED as detecções de vibração feitas pelo sensor.
+
+– Lista dos itens necessários:
+
+01 – Arduino com Cabo USB
+01 – Sensor (Detector) de Vibração – SW-420
+01 – LED Difuso 5MM Azul
+01 – Resistor de 150Ω
+01 – Protoboard
+02 – Cabos Jumper macho-macho
+03 – Cabos Jumper macho-fêmea 
 
