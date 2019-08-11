@@ -29,3 +29,23 @@ Utilizar o Sensor (Detector) de Vibração SW-420 em conjunto com o Arduino e mo
 02 – Cabos Jumper macho-macho
 03 – Cabos Jumper macho-fêmea 
 
+PROGRAMA:
+
+
+const int pinoLed = 12; //PINO DIGITAL UTILIZADO PELO LED
+const int pinoSensor = 5; //PINO DIGITAL UTILIZADO PELO SENSOR
+ 
+void setup(){
+  pinMode(pinoSensor, INPUT); //DEFINE O PINO COMO ENTRADA
+  pinMode(pinoLed, OUTPUT); //DEFINE O PINO COMO SAÍDA
+  digitalWrite(pinoLed, LOW); //LED INICIA DESLIGADO
+  Serial.begin(9600);
+}
+ 
+void loop(){
+  if(digitalRead(pinoSensor) == HIGH){ //SE A LEITURA DO PINO FOR IGUAL A HIGH, FAZ
+      digitalWrite(pinoLed, HIGH); //ACENDE O LED
+  }else{ //SENÃO, FAZ
+    digitalWrite(pinoLed, LOW); //APAGA O LED
+  }
+}
